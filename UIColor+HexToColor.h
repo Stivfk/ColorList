@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+HexToColor.h
 //  ColorList
 //
 //  Created by Steeve Fong on 3/26/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIColor (HexToColor)
 
 @end

@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  ColorDetailsVC.m
 //  ColorList
 //
 //  Created by Steeve Fong on 3/26/13.
 //  Copyright (c) 2013 Steeve Fong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ColorDetailsVC.h"
 
-@interface ViewController ()
+@interface ColorDetailsVC ()
 
 @end
 
-@implementation ViewController
+@implementation ColorDetailsVC
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning

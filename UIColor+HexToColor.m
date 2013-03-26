@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  UIColor+HexToColor.m
 //  ColorList
 //
 //  Created by Steeve Fong on 3/26/13.
 //  Copyright (c) 2013 Steeve Fong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIColor+HexToColor.h"
 
-@interface ViewController : UIViewController
+@implementation UIColor (HexToColor)
 
 @end
