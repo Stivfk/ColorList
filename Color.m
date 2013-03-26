@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Steeve Fong. All rights reserved.
 //
 
-#import "colorList.h"
+#import "color.h"
 
 @implementation colorList
 @synthesize description, title;

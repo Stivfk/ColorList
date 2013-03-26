@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface ViewController : UITableViewController <NSURLConnectionDataDelegate, NSURLConnectionDelegate>
+@property (strong, nonatomic) NSMutableData * myData;
+@property (strong, nonatomic) NSURLConnection * myConnection;
+
+- (void)fetchEntries;
 
 @end

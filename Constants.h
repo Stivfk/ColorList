@@ -6,4 +6,4 @@
 //  Copyright (c) 2013 Steeve Fong. All rights reserved.
 //
 
-#define colorListURL www.colourlovers.com/api/colours?format=json
+#define COLORLISTURL @"http://www.colourlovers.com/api/colors?format=json"

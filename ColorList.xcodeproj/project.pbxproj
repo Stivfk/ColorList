@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C9B67FD170081CE005DB438 /* colorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B67FC170081CE005DB438 /* colorList.m */; };
+		6C9B67FD170081CE005DB438 /* color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B67FC170081CE005DB438 /* color.m */; };
 		6C9B6803170082B7005DB438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B6801170082B7005DB438 /* ViewController.m */; };
 		6C9B6804170082B7005DB438 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B6802170082B7005DB438 /* ViewController.xib */; };
 		6CC37AF517005C37004D3E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC37AF417005C37004D3E13 /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C9B67FB170081CE005DB438 /* colorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorList.h; sourceTree = "<group>"; };
-		6C9B67FC170081CE005DB438 /* colorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorList.m; sourceTree = "<group>"; };
+		6C9B67FB170081CE005DB438 /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		6C9B67FC170081CE005DB438 /* color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = color.m; sourceTree = "<group>"; };
 		6C9B67FE17008261005DB438 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6C9B6800170082B7005DB438 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6C9B6801170082B7005DB438 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 		6C9B67FA170081B3005DB438 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6C9B67FB170081CE005DB438 /* colorList.h */,
-				6C9B67FC170081CE005DB438 /* colorList.m */,
+				6C9B67FB170081CE005DB438 /* color.h */,
+				6C9B67FC170081CE005DB438 /* color.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			files = (
 				6CC37B0117005C37004D3E13 /* main.m in Sources */,
 				6CC37B0517005C37004D3E13 /* AppDelegate.m in Sources */,
-				6C9B67FD170081CE005DB438 /* colorList.m in Sources */,
+				6C9B67FD170081CE005DB438 /* color.m in Sources */,
 				6C9B6803170082B7005DB438 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
